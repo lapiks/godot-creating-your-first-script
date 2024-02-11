@@ -1,4 +1,4 @@
-# godot-your-first-2d-game
-Implementation of "Your first 2D game" from the godot documentation
+# godot-creating-your-first-script
+Implementation of "Creating your first script" from the godot documentation
 
-![Alt text](yourfirst2dgame.png?raw=true "yourfirst2dgame")
+![Alt text](yourfirstscript.png?raw=true "yourfirstscript")
