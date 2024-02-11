@@ -5,6 +5,11 @@ var angular_speed = PI
 var auto_motion = false
 
 
+func _ready():
+	var timer = get_node("Timer")
+	timer.timeout.connect(_on_timer_timeout)
+
+
 func _process(delta):
 	var direction = (
 		1 if auto_motion
@@ -26,3 +31,7 @@ func _process(delta):
 
 func _on_button_pressed():
 	auto_motion = not auto_motion
+
+
+func _on_timer_timeout():
+	visible = not visible
